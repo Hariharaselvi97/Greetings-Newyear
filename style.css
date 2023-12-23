@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Open+Sans:wght@600&family=Poppins:ital,wght@1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/cd/86/cc/cd86ccf8a5672edb43efa4e6c53b38f9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dancing Script', 'cursive';
+    width: 100%;
+    height: 100vh;
+    
+
+}
+
+.round{
+ 
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-shadow: 4px 4px 2px rgba(255,20,147,0.6);
+    /* border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    width: 100px;
+    height: 100px; */
+   
+
+}
+
+.ballons img{
+  width: 70px;
+  animation: sample 5s linear infinite;
+  border-radius: 30px;
+}
+.ballons{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    
+}
+@keyframes sample{
+    0%{
+        transform:translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform:translateY(-80vh);
+    }
+}
+
+.ballons img:nth-child(1){
+    width: 60px;
+}
+.ballons img:nth-child(2){
+    width: 60px;
+    animation-delay: 2.5s;
+}
+.ballons img:nth-child(3){
+    width: 60px;
+    animation-delay: 2s;
+}
+.ballons img:nth-child(4){
+    width: 60px;
+    animation-delay: 2.5s;
+}
+.ballons img:nth-child(5){
+    width: 60px;
+    animation-delay: 2s;
+}
+.ballons img:nth-child(6){
+    width: 60px;
+    animation-delay: 2.5s;
+}
+.ballonsimg:nth-child(7){
+    width: 60px;
+    animation-delay: 2s;
+}
+.ballons img:nth-child(8){
+    width: 60px;
+    animation-delay: 2.5s;
+}
+
